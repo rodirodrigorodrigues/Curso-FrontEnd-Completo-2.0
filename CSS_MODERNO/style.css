@@ -9,3 +9,8 @@ h2 {
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.movie-title {
+    color: #ff0000;
+    font-weight: bold;
+}
