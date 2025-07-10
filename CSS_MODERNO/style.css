@@ -57,6 +57,7 @@ input[type="button"] {
     /* There is no set height as the content automatically adjusts */
     background-color: red;
     display: inline-block;
+    padding: 20px;
 }
 
 .div2 {
@@ -67,10 +68,12 @@ input[type="button"] {
     vertical-align: top;
     background-color: blue;
     display: inline-block;
+    padding: 20px;
 }
 
 .div3 {
     width: 25%;
     background-color: green;
     display: inline-block;
+    padding: 20px;
 }
