@@ -36,3 +36,18 @@ input[type="button"] {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.bg {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://s2-gshow.glbimg.com/BQN1poa_fVR-Vqgf_yAy13dDlZE=/339x0:577x424/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/E/C/RA4qu5RhW59ad8fXlgTQ/will-smith-lanca-linha-de-roupas-inspirada-em-um-maluco-no-pedaco-1.jpg');
+    background-repeat: no-repeat;
+    /* 'space' repete e distribui espaços entre as imagens */
+    /* background-repeat: space; */
+    /* 'round' ajusta o tamanho da imagem para preencher o espaço */
+    /* background-repeat: round; */
+    background-position: center;
+    background-color: cyan;
+    /* cobre todo o espaço disponível; */
+    background-size: cover;
+}
