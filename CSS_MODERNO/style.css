@@ -77,3 +77,31 @@ input[type="button"] {
     display: inline-block;
     padding: 20px;
 }
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    /* By default, flex comes with no-wrap, this way the items do not break lines, they will be resized to fit in the container */
+    /* When using flex-wrap: wrap; items can break lines, this allows us to have a more refined layout */
+    flex-wrap: wrap;
+}
+
+.item1 {
+    background-color: red;
+    width: 100%;
+}
+.item2 {
+    /* break */
+    background-color: green;
+    width: 50%;
+}
+.item3 {
+    /* break */
+    background-color: blue;
+    width: 50%;
+}
