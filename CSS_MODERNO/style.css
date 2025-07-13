@@ -119,3 +119,19 @@ h2.title {
 h2 {
     color: orange;
 }
+
+/* Animations */
+
+@keyframes animation1{
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+.animation {
+    animation: animation1 10s infinite;
+    animation-delay: 2s;
+}
