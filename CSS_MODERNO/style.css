@@ -105,3 +105,17 @@ input[type="button"] {
     background-color: blue;
     width: 50%;
 }
+
+/* Níveis de Importância */
+
+.teste h2.title {
+    color: blue;
+}
+
+h2.title {
+    color: red;
+}
+
+h2 {
+    color: orange;
+}
