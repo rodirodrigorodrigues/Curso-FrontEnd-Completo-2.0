@@ -8,6 +8,7 @@
     width: 500px;
     height: 500px;
     background-color: cyan;
+    border: 1px solid black;
 }
 
 /* Até 768px terá o comportamento */
@@ -15,5 +16,38 @@
     .box {
         width: 100%;
         background-color: lightcoral;
+    }
+}
+
+/* Mobile first */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Desktop */
+@media screen and (min-width: 769px) { 
+    .container {
+        flex-direction: row;
+    }
+    
+    .box {
+        width: 33.33%;
+        background-color: lightgreen;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .box {
+        width: 50%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .box {
+        width: 100%;
     }
 }
