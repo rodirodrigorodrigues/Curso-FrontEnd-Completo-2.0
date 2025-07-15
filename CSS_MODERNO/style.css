@@ -135,3 +135,20 @@ h2 {
     animation: animation1 10s infinite;
     animation-delay: 2s;
 }
+
+/* Variables */
+
+:root {
+    --main-color: hotpink;
+    --default-width: 100px;
+}
+
+.variables {
+    width: var(--default-width);
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
