@@ -6,6 +6,7 @@
 
 header {
     display: flex;
+    flex-wrap: wrap;
     background-color: cyan;
 }
 
@@ -29,6 +30,7 @@ section.banner {
 
 section.diferenciais {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     padding: 20px 0;
 }
